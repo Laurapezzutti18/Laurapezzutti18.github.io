@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi CV - Laura Pezzutti</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="shortcut icon"
+      href="https://us.123rf.com/450wm/mmfcreative/mmfcreative2102/mmfcreative210202173/163167727-icono-de-logotipo-de-vector-de-letra-inicial-lp.jpg?ver=6"
+      type="image/jpg?ver"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Cedarville+Cursive&family=Dancing+Script&family=Great+Vibes&family=Michroma&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button type="button" id="boton">Cambiar color de fondo</button>
+
+    <header>
+      <img
+        src="https://media.licdn.com/dms/image/C4E03AQE3eQBr6FnDOg/profile-displayphoto-shrink_800_800/0/1610465631658?e=1681344000&v=beta&t=yB5ZyP1_YE1B-RaX3C2lqw_ls13Qd8FxNIbNINe3104"
+        alt="foto"
+      />
+      CURRICULUM VITAE
+    </header>
+    <h1>
+      <img
+        src="https://us.123rf.com/450wm/mmfcreative/mmfcreative2102/mmfcreative210202173/163167727-icono-de-logotipo-de-vector-de-letra-inicial-lp.jpg?ver=6"
+        alt="Iniciales LP"
+        width="100PX"
+      />
+      LAURA PEZZUTTI
+    </h1>
+    <p>Fecha</p>
+    <button onclick="this.innerHTML=Date()">Click aquí</button>
+
+    <h2>
+      Disfruté mucho del curso PRIMEROS PASOS DEL DESARROLLO FRON END de
+      Argentina Programa. Espero aprender mucho más en sucesivos cursos.
+    </h2>
+
+    <p id="demo">Mensaje para el curso</p>
+
+    <button type="button" id="boton1">Hacer click aquí</button>
+
+    <section>
+      <article>
+        DATOS PERSONALES:
+        <li id="NOMBRE">NOMBRE Y APELLIDO: LAURA PEZZUTTI.</li>
+        <li>EDAD: 38 AÑOS.</li>
+        <li>FECHA DE NACIMIENTO: 13 DE JUNIO 1984.</li>
+        <li>DNI: 30.587.021.</li>
+        <li>DOMICILIO: Francisco Moyano 2864 CIUDAD de Mendoza.</li>
+        <li>TELÉFONO: 2615101648.</li>
+      </article>
+    </section>
+    <section>
+      <article>
+        EXPECTATIVAS Y ASPIRACIONES PERSONALES:
+        <p>
+          Mi formación universitaria y mi desempeño profesional están
+          relacionados con las ciencias humanas.
+        </p>
+        <p>
+          Sin embargo, soy una persona caracterizada por la curiosidad y la
+          necesidad de aprender siempre cosas nuevas.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        FORMACIÓN ACADÉMICA:
+        <div>
+          <i
+            >Educación Universitaria: Lic. en Trabajo Social. Universidad
+            Nacional de cUYO. Mendoza (Egresada 2010).</i
+          >
+        </div>
+      </article>
+    </section>
+    <section>
+      <article>
+        EXPERIENCIA PROFESIONAL:
+        <li>Instituto Provincial de la Vivienda (2007-Actualidad).</li>
+        <li>Poder Judicial Mendoza. Perito Social (2021-Actualidad).</li>
+        <li>Asociación Mendocina de Esclerosis Múltiple (2012-2013).</li>
+      </article>
+    </section>
+
+    <section class="form_wrap">
+      <form
+        action="https://formspree.io/f/xjvdyaqd"
+        method="POST"
+        id="form"
+        name="form"
+        class="form_contact"
+      >
+        <h1>Para contactarme:</h1>
+        <div class="user_info">
+          <label for="names"> Nombres </label>
+          <input type="text" name="names" />
+          <label for="phone"> Teléfono/Celular</label>
+          <input type="text" name="phone" />
+          <label for="email"> Correo Electrónico </label>
+          <input type="text" name="email" />
+
+          <label for="mensaje"> mensaje </label>
+          <textarea id="mensaje"></textarea>
+          <button type="submit" class="btn primary full">Enviar Mensaje</button>
+        </div>
+      </form>
+      <a href="mailto:laurapezzutti18@gmail.com" id="trucazo">mail</a>
+    </section>
+    <script src="function.js"></script>
+  </body>
+</html>
