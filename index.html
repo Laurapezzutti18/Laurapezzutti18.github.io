@@ -18,7 +18,9 @@
   </head>
 
   <body>
-    <button type="button" id="boton">Cambiar color de fondo</button>
+    <p>Cambiar color de fondo</p>
+
+    <button type="button" id="boton">Click aquí</button>
 
     <header>
       <img
@@ -93,13 +95,7 @@
     </section>
 
     <section class="form_wrap">
-      <form
-        action="https://formspree.io/f/xjvdyaqd"
-        method="POST"
-        id="form"
-        name="form"
-        class="form_contact"
-      >
+      <form action="" id="form" name="form" class="form_contact">
         <h1>Para contactarme:</h1>
         <div class="user_info">
           <label for="names"> Nombres </label>
@@ -111,10 +107,11 @@
 
           <label for="mensaje"> mensaje </label>
           <textarea id="mensaje"></textarea>
-          <button type="submit" class="btn primary full">Enviar Mensaje</button>
+          <button type="submit" class="btn primary full" id="btnSend">
+            Enviar Mensaje
+          </button>
         </div>
       </form>
-      <a href="mailto:laurapezzutti18@gmail.com" id="trucazo">mail</a>
     </section>
     <script src="function.js"></script>
   </body>
