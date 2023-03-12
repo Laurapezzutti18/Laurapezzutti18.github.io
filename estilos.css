@@ -212,3 +212,7 @@ form.form_contact input [type= "button"] {
     letter-spacing: 1px;
     font-weight: 200;
   }
+
+#fa-solid_fa-heart {
+    margin-right: 10px;
+}
